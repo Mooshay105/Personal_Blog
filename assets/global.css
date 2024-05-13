@@ -1,0 +1,68 @@
+html {
+    font-family:Arial, Helvetica, sans-serif;
+}
+.bottom {
+    bottom: 0;
+    left:0;
+    width: 100%;
+    min-height: 44px;
+    border: 0px;
+    padding:0px;
+    margin:0px; 
+}
+.span {
+    width: 100%;
+    border: 0px;
+    padding:0px;
+    margin:0px; 
+    left:0;
+}
+.logoPadding {
+    padding: 5px;
+}
+.darkModeToggle {
+    position: absolute;
+    z-index: 100;
+    top: 1em;
+    right: 1em;
+    color: var(--foreground);
+    border: 2px solid currentColor;
+    padding: 4px;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img {
+    border-radius: 15px;
+}
+.blogPageText {
+    max-width: 850px;
+}
+.heroH1 {
+    box-sizing: border-box;
+    color: rgb(21, 29, 53);
+    font-size: 49.0706px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+    scroll-margin-top: calc(1em + 54px);
+    margin-bottom: 8px; margin-right: 26px;
+    margin-top: 8px;
+}
+.heroText {
+    box-sizing: border-box;
+    color: rgb(21, 29, 53);
+    font-size: 19.125px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-decoration: none;
+    margin-bottom: 8px;
+    margin-top: 16px;
+}
