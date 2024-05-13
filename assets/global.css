@@ -66,3 +66,20 @@ img {
     margin-bottom: 8px;
     margin-top: 16px;
 }
+.heroDiv1 {
+    box-sizing: border-box;
+    display: contents;
+}
+.heroDiv2 {
+    box-sizing: border-box; 
+    max-width: 900px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 48px 24px 96px;
+}
+.heroDiv3 {
+    box-sizing: border-box; 
+    display: flex; 
+    flex-direction: column; 
+    max-width: 500px;
+}
