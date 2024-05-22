@@ -1,6 +1,21 @@
+/* Main Styles */
+
 html {
     font-family:Arial, Helvetica, sans-serif;
 }
+
+header {
+    background-color: #1a2036;
+    color: white;
+}
+
+footer {
+    background-color: #1a2036;
+    color: white;
+}
+
+/*Posistion Styles*/
+
 .bottom {
     bottom: 0;
     left:0;
@@ -10,6 +25,7 @@ html {
     padding:0px;
     margin:0px; 
 }
+
 .span {
     width: 100%;
     border: 0px;
@@ -17,9 +33,70 @@ html {
     margin:0px; 
     left:0;
 }
+
 .logoPadding {
     padding: 5px;
 }
+
+/*Hero Styles*/
+
+.heroH1 {
+    box-sizing: border-box;
+    color: rgb(21, 29, 53);
+    font-size: 49.0706px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+    scroll-margin-top: calc(1em + 54px);
+    margin-bottom: 8px; margin-right: 26px;
+    margin-top: 8px;
+}
+
+.heroText {
+    box-sizing: border-box;
+    color: rgb(21, 29, 53);
+    font-size: 19.125px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-decoration: none;
+    margin-bottom: 8px;
+    margin-top: 16px;
+}
+
+.heroDiv1 {
+    box-sizing: border-box;
+    display: contents;
+}
+
+.heroDiv2 {
+    box-sizing: border-box; 
+    max-width: 900px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 48px 24px 96px;
+}
+
+.heroDiv3 {
+    box-sizing: border-box; 
+    display: flex; 
+    flex-direction: column; 
+    max-width: 500px;
+}
+
+/*Blog Styles*/
+
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blogPageText {
+    max-width: 850px;
+}
+
+/*Misc Styles*/
+
 .darkModeToggle {
     position: absolute;
     z-index: 100;
@@ -33,53 +110,4 @@ html {
     border-radius: 5px;
     width: 30px;
     height: 30px;
-}
-.blog {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-img {
-    border-radius: 15px;
-}
-.blogPageText {
-    max-width: 850px;
-}
-.heroH1 {
-    box-sizing: border-box;
-    color: rgb(21, 29, 53);
-    font-size: 49.0706px;
-    font-weight: 700;
-    line-height: 1.2;
-    text-decoration: none;
-    scroll-margin-top: calc(1em + 54px);
-    margin-bottom: 8px; margin-right: 26px;
-    margin-top: 8px;
-}
-.heroText {
-    box-sizing: border-box;
-    color: rgb(21, 29, 53);
-    font-size: 19.125px;
-    font-weight: 600;
-    line-height: 1.5;
-    text-decoration: none;
-    margin-bottom: 8px;
-    margin-top: 16px;
-}
-.heroDiv1 {
-    box-sizing: border-box;
-    display: contents;
-}
-.heroDiv2 {
-    box-sizing: border-box; 
-    max-width: 900px; 
-    margin-left: auto; 
-    margin-right: auto; 
-    padding: 48px 24px 96px;
-}
-.heroDiv3 {
-    box-sizing: border-box; 
-    display: flex; 
-    flex-direction: column; 
-    max-width: 500px;
 }
