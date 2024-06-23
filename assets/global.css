@@ -91,8 +91,15 @@ footer {
     justify-content: center;
 }
 
+.blogPageDiv {
+    border-radius: 15px;
+    background-color: #1a2036;
+    width: 970px;
+}
+
 .blogPageText {
-    max-width: 850px;
+    width: fit-content;
+    color: white;
 }
 
 /*Misc Styles*/
@@ -110,4 +117,16 @@ footer {
     border-radius: 5px;
     width: 30px;
     height: 30px;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.blackText {
+    color: black;
+}
+
+.whiteText {
+    color: white;
 }
